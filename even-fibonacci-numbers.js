@@ -1,14 +1,16 @@
+/*
+ * Problem 2: Even Fibonacci Numbers
+*/
+
 !function () {
   var i = 1
-    , h = 1
+    , j = 1
     , s = 0
   
   while (i < 4000000) {
     if (!(i % 2)) s += i
-    
-    j = i + h
-    h = i
-    i = j
+    i += j
+    j = i - j
   }
   
   return s
