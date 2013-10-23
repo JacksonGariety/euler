@@ -1,7 +1,7 @@
 euler
 =====
 
-Node.js solutions to Project Euler problems.
+JavaScript solutions to Project Euler problems.
 
 ### Contributing
 

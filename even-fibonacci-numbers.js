@@ -14,5 +14,6 @@
     j = i - j
   }
   
+  console.log(s)
   return s
 }(process.argv[2])

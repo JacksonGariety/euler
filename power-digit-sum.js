@@ -32,5 +32,6 @@
     s += n[k]
   }
   
+  console.log(s)
   return s
 }(process.argv[2])
