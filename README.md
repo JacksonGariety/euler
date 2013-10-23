@@ -12,4 +12,6 @@ Solution requirements:
 - filename all lower-case
 - filename with dashes instead of spaces
 - a comment at the top with problem number and name
-- contains a self-executing function which returns the correct solution
+- contains a self-executing function
+- the function takes `process.argv[2]` and has a default value
+- the function logs and returns the correct solution

@@ -1,8 +1,8 @@
 /*
- * Problem 16: Power d s
+ * Problem 16: Power digit sum
  */
 
-!function (e) {
+!function pds(e) {
   var n = [1]
     , s = 0
   
@@ -33,4 +33,4 @@
   }
   
   return s
-}()
+}(process.argv[2])
